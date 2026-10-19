@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rana Nazar Muhammad · Author of marketing and recipe books</title>
+<meta name="description" content="Rana Nazar Muhammad writes practical marketing books and recipe books, sold on Amazon, Etsy and Gumroad, with live and recorded lectures on Zoom.">
+<meta property="og:title" content="Rana Nazar Muhammad · Marketing and recipe books">
+<meta property="og:description" content="Marketing and recipe books on Amazon, Etsy and Gumroad, plus live and recorded lectures.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0A0A0B">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Rana Nazar Muhammad","jobTitle":"Author","knowsAbout":["Marketing","Social media marketing","Copywriting","Cooking"]}
+</script>
+<style>
+:root{
+  --bg:#FAFAF7;--card:#FFFFFF;--fg:#0A0A0B;--mu:#63636A;--bd:rgba(10,10,11,.10);--sub:#F1F1EC;
+  --lime:#9CEE69;--limeh:#8BDD58;--ink:#0A0A0B;--grn:#1F7A4D;--band:#0A0A0B;--bandc:#121214;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0A0A0B;--card:#121214;--fg:#F4F4F2;--mu:#9A9AA2;--bd:rgba(255,255,255,.10);--sub:#0F0F11;--grn:#9CEE69;--band:#141416;--bandc:#1B1B1E}}
+:root[data-theme="dark"]{--bg:#0A0A0B;--card:#121214;--fg:#F4F4F2;--mu:#9A9AA2;--bd:rgba(255,255,255,.10);--sub:#0F0F11;--grn:#9CEE69;--band:#141416;--bandc:#1B1B1E}
+html{scroll-padding-top:calc(76px + env(safe-area-inset-top,0px))}
+*,*:before,*:after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16.5px/1.6 "Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+h1,h2,h3,h4,p{margin:0}
+h1,h2,h3,.cv-t,.quote,.mq-t>span,.cd b,.lc .pr,.cr b{font-family:"Bricolage Grotesque",system-ui,sans-serif}
+h1,h2,h3{font-weight:700;letter-spacing:-.035em;line-height:1.04}
+h2{font-size:clamp(2rem,4.2vw,3.1rem)}h3{font-size:1.2rem;letter-spacing:-.02em;line-height:1.25}
+.it{font:inherit;letter-spacing:inherit;color:inherit}
+.w{max-width:1200px;margin:0 auto;padding:0 24px}
+section{padding:104px 0}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--grn);outline-offset:3px;border-radius:6px}
+.dark :focus-visible,.hero :focus-visible{outline-color:var(--lime)}
+img{max-width:100%}
+button{font:inherit;color:inherit}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:48px;padding:0 22px;border-radius:999px;font-weight:600;font-size:.95rem;text-decoration:none;border:1px solid transparent;cursor:pointer;transition:transform .15s,background .15s,border-color .15s;background:none;white-space:nowrap}
+.btn:hover{transform:translateY(-1px)}
+.p{background:var(--lime);color:var(--ink)}.p:hover{background:var(--limeh)}
+.g{border-color:var(--bd);color:inherit}.g:hover{border-color:currentColor}
+.dark .g,.hero .g{border-color:rgba(255,255,255,.22);color:#F4F4F2}
+.sm{height:40px;padding:0 16px;font-size:.88rem}
+.lab{font-size:.8rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--grn);margin-bottom:16px;display:block}
+.dark .lab{color:var(--lime)}
+.hd{max-width:640px;margin-bottom:52px}.hd p{color:var(--mu);margin-top:18px;font-size:1.08rem}
+.hdr{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:52px}.hdr .hd{margin:0}
+.dark{background:var(--band);color:#F4F4F2}.dark .mu,.dark .hd p{color:#A9A9B0}
+.alt{background:var(--sub);border-block:1px solid var(--bd)}
+
+/* nav */
+.nav{position:fixed;top:0;left:0;right:0;z-index:50;padding-top:env(safe-area-inset-top,0px);transition:background .25s,border-color .25s;border-bottom:1px solid transparent;color:#F4F4F2}
+.nav.solid{background:rgba(10,10,11,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-color:rgba(255,255,255,.08)}
+.nav .w{display:flex;align-items:center;justify-content:space-between;height:72px;gap:20px}
+.lg{font-weight:650;letter-spacing:-.03em;font-size:1.08rem;text-decoration:none;display:flex;align-items:center;gap:10px}
+.lg i{width:28px;height:28px;border-radius:8px;background:var(--lime);color:var(--ink);display:grid;place-items:center;font:700 1rem "Bricolage Grotesque",sans-serif}
+.nl{display:flex;gap:6px;font-size:.92rem}
+.nl a{text-decoration:none;color:#A9A9B0;padding:8px 13px;border-radius:999px;transition:color .15s,background .15s}
+.nl a:hover{color:#fff}.nl a.on{color:#fff;background:rgba(255,255,255,.08)}
+.burger{display:none;width:42px;height:42px;border-radius:999px;border:1px solid rgba(255,255,255,.2);background:none;cursor:pointer;position:relative}
+.burger span{position:absolute;left:12px;right:12px;height:1.5px;background:#fff;transition:transform .2s,top .2s}
+.burger span:first-child{top:16px}.burger span:last-child{top:24px}
+.menu-open .burger span:first-child{top:20px;transform:rotate(45deg)}.menu-open .burger span:last-child{top:20px;transform:rotate(-45deg)}
+.sheet{position:fixed;inset:0;z-index:45;background:#0A0A0B;color:#F4F4F2;padding:calc(100px + env(safe-area-inset-top,0px)) 24px 40px;display:flex;flex-direction:column;gap:6px;opacity:0;pointer-events:none;transition:opacity .25s}
+.menu-open .sheet{opacity:1;pointer-events:auto}
+.sheet a{font-size:2rem;font-weight:600;letter-spacing:-.03em;text-decoration:none;padding:6px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+.sheet .btn{margin-top:24px;font-size:1rem}
+
+/* progress */
+.prog{position:fixed;top:0;left:0;height:2px;width:100%;background:var(--lime);transform-origin:0 50%;transform:scaleX(0);z-index:60}
+
+/* hero */
+.hero{background:#0A0A0B;color:#F4F4F2;position:relative;overflow:hidden;padding:calc(130px + env(safe-area-inset-top,0px)) 0 90px}
+.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(640px 420px at 74% 52%,rgba(156,238,105,.14),transparent 70%)}
+.hg{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center;position:relative}
+.eb{display:inline-flex;align-items:center;gap:9px;font-size:.82rem;font-weight:500;color:#B9B9C0;border:1px solid rgba(255,255,255,.14);border-radius:999px;padding:6px 14px;background:rgba(255,255,255,.04)}
+.eb i{width:6px;height:6px;border-radius:50%;background:var(--lime);box-shadow:0 0 0 3px rgba(156,238,105,.25)}
+.hero h1{font-size:clamp(3rem,7.4vw,6.2rem);letter-spacing:-.045em;line-height:.94;margin:0 0 26px}
+.hero h1 .ln{display:block;overflow:hidden;padding-bottom:.06em}
+.hero h1 .ln>span{display:inline-block;transform:translateY(105%);transition:transform 1s cubic-bezier(.2,.8,.2,1)}
+.hero h1 .ln:nth-child(2)>span{transition-delay:.12s}
+.hero h1 .it{color:var(--lime)}
+.loaded .hero h1 .ln>span{transform:none}
+.fade{opacity:0;transform:translateY(14px);transition:opacity .8s .35s,transform .8s .35s}
+.loaded .fade{opacity:1;transform:none}
+.hero .lead{font-size:1.16rem;color:#A9A9B0;max-width:46ch;margin-bottom:32px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.mkts{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:40px;padding-top:24px;border-top:1px solid rgba(255,255,255,.1);font-size:.85rem;color:#8B8B93}
+.mkts a{color:#E8E8EA;text-decoration:none;font-weight:600;border:1px solid rgba(255,255,255,.14);border-radius:999px;padding:6px 14px;font-size:.88rem;transition:border-color .15s}
+.mkts a:hover{border-color:var(--lime)}
+
+/* 3D ring */
+.stage{position:relative;height:540px;perspective:1300px;cursor:grab;touch-action:pan-y;user-select:none;-webkit-user-select:none}
+.stage:active{cursor:grabbing}
+.ring{position:absolute;left:50%;top:46%;width:0;height:0;transform-style:preserve-3d;opacity:0;transition:opacity 1.2s .2s}
+.loaded .ring{opacity:1}
+.ring .slot{position:absolute;left:-75px;top:-108px;transform-style:preserve-3d}
+.floor{position:absolute;left:50%;top:78%;width:520px;height:120px;transform:translateX(-50%);background:radial-gradient(ellipse at center,rgba(156,238,105,.18),rgba(0,0,0,0) 65%);filter:blur(6px)}
+.hint{position:absolute;bottom:6px;left:0;right:0;text-align:center;font-size:.8rem;color:#6E6E76}
+
+/* 3D book */
+.b3{--w:150px;--h:216px;--d:26px;width:var(--w);height:var(--h);transform-style:preserve-3d;position:relative}
+.b3 .f{position:absolute;backface-visibility:hidden;-webkit-backface-visibility:hidden}
+.b3 .front,.b3 .back{inset:0;border-radius:2px 7px 7px 2px;overflow:hidden}
+.b3 .front{transform:translateZ(calc(var(--d) / 2));padding:calc(var(--w) * .12);display:flex;flex-direction:column;justify-content:space-between;box-shadow:inset 0 0 0 1px rgba(0,0,0,.08)}
+.b3 .front:before{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(255,255,255,.32),rgba(255,255,255,0) 30%),linear-gradient(90deg,rgba(0,0,0,.18),rgba(0,0,0,0) 6%);pointer-events:none;z-index:2}
+.b3 .back{transform:rotateY(180deg) translateZ(calc(var(--d) / 2));border-radius:7px 2px 2px 7px}
+.b3 .spine{top:0;height:100%;width:var(--d);left:calc(50% - var(--d) / 2);transform:rotateY(-90deg) translateZ(calc(var(--w) / 2));display:flex;align-items:center;justify-content:center;writing-mode:vertical-rl;font-size:calc(var(--w) * .062);font-weight:600;letter-spacing:.02em;white-space:nowrap;overflow:hidden}
+.b3 .pages{top:3px;height:calc(100% - 6px);width:calc(var(--d) - 2px);left:calc(50% - var(--d) / 2 + 1px);transform:rotateY(90deg) translateZ(calc(var(--w) / 2 - 3px));background:repeating-linear-gradient(90deg,#F4F4EF 0 2px,#D6D6CC 2px 3px)}
+.cv-s{font-size:calc(var(--w) * .052);font-weight:600;letter-spacing:.14em;text-transform:uppercase;opacity:.75;position:relative;z-index:1}
+.cv-t{font-size:calc(var(--w) * .135);line-height:1;letter-spacing:-.04em;font-weight:700;position:relative;z-index:1;text-wrap:balance}
+.cv-t em{font-style:normal}
+.cv-a{font-size:calc(var(--w) * .058);font-weight:550;position:relative;z-index:1;opacity:.85}
+.art{position:absolute;pointer-events:none;z-index:0}
+.a1{width:150%;aspect-ratio:1;right:-75%;bottom:-62%;border-radius:50%;border:1.5px solid currentColor;opacity:.35;box-shadow:0 0 0 calc(var(--w) * .1) rgba(0,0,0,.06),0 0 0 calc(var(--w) * .2) rgba(0,0,0,.04)}
+.a2{left:0;right:0;bottom:24%;height:28%;background:repeating-linear-gradient(currentColor 0 1px,transparent 1px 9px);opacity:.22}
+.a3{width:95%;aspect-ratio:1;left:-30%;top:22%;border-radius:50%;background:currentColor;opacity:.12}
+.a4{inset:28% 10% 22% 10%;background:radial-gradient(currentColor 1.2px,transparent 1.4px) 0 0/12px 12px;opacity:.25}
+.a5{inset:0;background:repeating-linear-gradient(135deg,currentColor 0 1px,transparent 1px 14px);opacity:.14}
+.a6{width:80%;height:52%;right:-8%;bottom:-6%;border:1.5px solid currentColor;border-bottom:0;border-radius:999px 999px 0 0;opacity:.35}
+
+/* books */
+.shelf{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.bk{display:flex;flex-direction:column;gap:18px}
+.bk-st{height:320px;display:grid;place-items:center;perspective:1200px;border-radius:22px;background:var(--card);border:1px solid var(--bd);position:relative;overflow:hidden}
+.bk-st:after{content:"";position:absolute;left:18%;right:18%;bottom:26px;height:22px;border-radius:50%;background:rgba(0,0,0,.28);filter:blur(14px)}
+.bk-st .b3{transform:rotateY(-24deg) rotateX(4deg);transition:transform .6s cubic-bezier(.2,.8,.2,1);z-index:1}
+.bk:hover .b3,.bk:focus-within .b3{transform:rotateY(-6deg) rotateX(2deg) translateY(-8px) scale(1.03)}
+.bdg{position:absolute;top:14px;left:14px;font-size:.74rem;font-weight:650;padding:4px 10px;border-radius:999px;z-index:2;background:var(--fg);color:var(--bg)}
+.bdg.new{background:var(--lime);color:var(--ink)}
+.bk h3{font-size:1.1rem}.bk p{color:var(--mu);font-size:.93rem;margin-top:4px}
+.bk .tp{font-size:.8rem;color:var(--grn);font-weight:600}
+.bk .by{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:auto}
+.bk .by .btn{padding:0 8px;height:38px;font-size:.84rem}
+.bk .by .btn:only-child{grid-column:1/-1}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{border:1px solid var(--bd);background:var(--card);border-radius:999px;padding:8px 16px;font-size:.88rem;font-weight:550;cursor:pointer;transition:border-color .15s,background .15s}
+.chip:hover{border-color:var(--fg)}.chip[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.dark .chip{background:transparent;border-color:rgba(255,255,255,.18);color:#E8E8EA}
+.dark .chip[aria-pressed="true"]{background:var(--lime);color:var(--ink);border-color:var(--lime)}
+.empty{grid-column:1/-1;text-align:center;padding:60px 20px;color:var(--mu);border:1px dashed var(--bd);border-radius:22px}
+
+/* lectures */
+.lv{display:grid;grid-template-columns:1.25fr .75fr;gap:16px}
+.next{background:var(--bandc);border:1px solid rgba(255,255,255,.1);border-radius:26px;padding:36px;position:relative;overflow:hidden}
+.next:before{content:"";position:absolute;width:460px;height:460px;right:-160px;top:-180px;background:radial-gradient(circle,rgba(156,238,105,.2),transparent 65%)}
+.next>*{position:relative}
+.live{display:inline-flex;align-items:center;gap:8px;font-size:.8rem;font-weight:600;color:var(--lime);margin-bottom:16px}
+.live i{width:8px;height:8px;border-radius:50%;background:#ff5a4d;animation:pl 1.6s infinite}
+@keyframes pl{50%{opacity:.3}}
+.next h3{font-size:clamp(1.6rem,3vw,2.2rem);letter-spacing:-.035em;line-height:1.1;max-width:20ch}
+.next p{color:#A9A9B0;margin:14px 0 22px;max-width:52ch}
+.cd{display:flex;gap:10px;margin-bottom:26px}
+.cd div{min-width:72px;border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:10px 12px;text-align:center;background:rgba(255,255,255,.03)}
+.cd b{display:block;font-size:1.6rem;letter-spacing:-.04em;font-variant-numeric:tabular-nums;line-height:1.1}
+.cd span{font-size:.72rem;color:#8B8B93}
+.tm{display:grid;gap:4px;margin-bottom:24px;font-size:.92rem;color:#D4D4D8}.tm span{color:#8B8B93}
+.rec{display:grid;gap:12px}
+.rc{display:flex;gap:14px;align-items:center;border:1px solid rgba(255,255,255,.1);border-radius:18px;padding:12px;text-decoration:none;background:rgba(255,255,255,.02);transition:border-color .15s;cursor:pointer;text-align:left;width:100%}
+.rc:hover{border-color:rgba(156,238,105,.5)}
+.th{flex:0 0 auto;width:96px;aspect-ratio:16/10;border-radius:10px;position:relative;overflow:hidden;display:grid;place-items:center}
+.th .pl{width:28px;height:28px;border-radius:50%;background:rgba(10,10,11,.75);display:grid;place-items:center;position:relative;z-index:1}
+.th .pl:after{content:"";border-left:8px solid #fff;border-top:5px solid transparent;border-bottom:5px solid transparent;margin-left:2px}
+.rc b{display:block;font-size:.95rem;line-height:1.3;font-weight:600}.rc small{color:#8B8B93;font-size:.8rem}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:56px}
+.step{border-top:1px solid rgba(255,255,255,.14);padding-top:20px}
+.step b{display:block;font-size:.85rem;color:var(--lime);margin-bottom:8px}
+.step h3{margin-bottom:6px}.step p{color:#A9A9B0;font-size:.94rem}
+.tools{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:36px}
+.seg{display:inline-flex;border:1px solid var(--bd);border-radius:999px;padding:4px;background:var(--card)}
+.seg button{border:0;background:none;border-radius:999px;padding:8px 16px;font-size:.88rem;font-weight:550;cursor:pointer;color:var(--mu)}
+.seg button[aria-pressed="true"]{background:var(--fg);color:var(--bg)}
+.lg3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.lc{background:var(--card);border:1px solid var(--bd);border-radius:22px;overflow:hidden;display:flex;flex-direction:column}
+.lc .th{width:100%;border-radius:0;aspect-ratio:16/9}
+.lc .th .pl{width:46px;height:46px}.lc .th .pl:after{border-left-width:12px;border-top-width:8px;border-bottom-width:8px}
+.lc .bd{padding:22px;display:flex;flex-direction:column;gap:10px;flex:1}
+.lc .row{display:flex;gap:8px;flex-wrap:wrap}
+.tag{font-size:.74rem;font-weight:650;padding:4px 10px;border-radius:999px;border:1px solid var(--bd)}
+.tag.free{background:var(--lime);color:var(--ink);border-color:var(--lime)}
+.lc .meta{font-size:.88rem;color:var(--mu);display:grid;gap:2px}
+.lc .ft{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:auto;padding-top:14px;border-top:1px solid var(--bd)}
+.lc .pr{font-weight:650;font-size:1.05rem;letter-spacing:-.02em}
+.th-1{background:linear-gradient(135deg,#9CEE69,#5DBE3A)}
+.th-2{background:linear-gradient(135deg,#1F7A4D,#0F3D27)}
+.th-3{background:linear-gradient(135deg,#E7E1CF,#C9C1A8)}
+.th-4{background:linear-gradient(135deg,#232327,#0A0A0B)}
+.th:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(115deg,rgba(255,255,255,.12) 0 1px,transparent 1px 16px)}
+
+/* author */
+.au{display:grid;grid-template-columns:.85fr 1.15fr;gap:64px;align-items:center}
+.ph{aspect-ratio:4/5;border-radius:28px;background:#0E1A10;position:relative;overflow:hidden;display:grid;place-items:center;color:#F4F4F2;border:1px solid var(--bd)}
+.ph:before{content:"";position:absolute;inset:0;background:radial-gradient(320px 280px at 70% 18%,rgba(156,238,105,.3),transparent 70%),radial-gradient(260px 220px at 20% 90%,rgba(31,122,77,.5),transparent 70%)}
+.ph svg{position:relative;width:62%;opacity:.9}
+.ph small{position:absolute;bottom:18px;left:0;right:0;text-align:center;font-size:.8rem;color:#A9A9B0}
+.bio{color:var(--mu);font-size:1.08rem;margin:20px 0 28px;max-width:56ch}
+.cr{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:30px}
+.cr div{border:1px solid var(--bd);border-radius:16px;padding:16px 18px;background:var(--card)}
+.cr b{display:block;font-size:1.25rem;letter-spacing:-.03em}.cr span{font-size:.86rem;color:var(--mu)}
+.quote{font-weight:600;font-size:clamp(1.7rem,3.2vw,2.5rem);line-height:1.15;letter-spacing:-.03em;max-width:28ch}
+.quote+small{display:block;margin-top:18px;color:var(--mu)}
+.tl{list-style:none;margin:0;padding:0;border-left:1px solid var(--bd)}
+.tl li{padding:0 0 26px 26px;position:relative}
+.tl li:before{content:"";position:absolute;left:-5px;top:7px;width:9px;height:9px;border-radius:50%;background:var(--lime);box-shadow:0 0 0 4px rgba(156,238,105,.2)}
+.tl b{display:block}.tl span{color:var(--mu);font-size:.94rem}
+.topics{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--bd);border:1px solid var(--bd);border-radius:22px;overflow:hidden}
+.topics div{background:var(--card);padding:26px}
+.topics h3{margin-bottom:6px}.topics p{color:var(--mu);font-size:.94rem}
+
+/* reviews */
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.rv{background:var(--card);border:1px solid var(--bd);border-radius:22px;padding:28px;display:flex;flex-direction:column}
+.rv p{font-size:1.04rem}.rv small{display:block;margin-top:auto;padding-top:22px;color:var(--mu)}
+.note{font-size:.84rem;color:var(--mu);margin-top:18px}
+
+/* marquee */
+.mq{overflow:hidden;border-block:1px solid var(--bd);padding:22px 0;background:var(--bg)}
+.mq-t{display:flex;gap:48px;width:max-content;animation:mq 40s linear infinite}
+.mq-t>span{font-size:clamp(1.4rem,2.6vw,2rem);letter-spacing:-.03em;font-weight:600;white-space:nowrap;display:flex;align-items:center;gap:48px}
+.mq-t>span:after{content:"";width:10px;height:10px;border-radius:50%;background:var(--lime)}
+
+@keyframes mq{to{transform:translateX(-50%)}}
+.mq:hover .mq-t{animation-play-state:paused}
+
+/* page header */
+.ph-h{background:#0A0A0B;color:#F4F4F2;padding:calc(150px + env(safe-area-inset-top,0px)) 0 72px;position:relative;overflow:hidden}
+.ph-h:before{content:"";position:absolute;width:620px;height:620px;right:-180px;top:-260px;background:radial-gradient(circle,rgba(156,238,105,.16),transparent 65%)}
+.ph-h .w{position:relative}
+.ph-h h1{font-size:clamp(2.6rem,6vw,4.6rem);letter-spacing:-.045em;line-height:1}
+
+.ph-h p{color:#A9A9B0;font-size:1.1rem;margin-top:20px;max-width:54ch}
+
+/* cta band */
+.band{border-radius:28px;background:var(--band);color:#F4F4F2;padding:56px;display:grid;grid-template-columns:1.2fr .8fr;gap:32px;align-items:center;position:relative;overflow:hidden}
+.band:before{content:"";position:absolute;width:520px;height:520px;left:-200px;bottom:-320px;background:radial-gradient(circle,rgba(156,238,105,.2),transparent 65%)}
+.band>*{position:relative}
+.band p{color:#A9A9B0;margin-top:14px}
+.band .cta{justify-content:flex-end}
+
+/* forms */
+.fm{display:grid;gap:16px}
+.fl{display:grid;gap:7px}
+.fl label{font-size:.88rem;font-weight:550}
+.fl input,.fl select,.fl textarea{font:inherit;font-size:.98rem;color:var(--fg);background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:12px 14px;width:100%;transition:border-color .15s}
+.fl input:focus,.fl select:focus,.fl textarea:focus{outline:none;border-color:var(--grn);box-shadow:0 0 0 3px rgba(156,238,105,.25)}
+.fl textarea{min-height:130px;resize:vertical}
+.fl .err{font-size:.82rem;color:#C2362B;display:none}
+.fl.bad input,.fl.bad select,.fl.bad textarea{border-color:#C2362B}.fl.bad .err{display:block}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.ct{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:start}
+.side{display:grid;gap:12px}
+.side a,.side div{display:block;border:1px solid var(--bd);border-radius:18px;padding:20px;background:var(--card);text-decoration:none}
+.side b{display:block;margin-bottom:2px}.side span{color:var(--mu);font-size:.92rem}
+.ok{display:none;border:1px solid var(--bd);border-radius:22px;padding:36px;background:var(--card);text-align:center}
+.ok b{display:grid;place-items:center;width:52px;height:52px;margin:0 auto 16px;border-radius:50%;background:var(--lime);color:var(--ink);font-size:1.4rem}
+.ok h3{font-size:1.5rem;margin-bottom:8px}.ok p{color:var(--mu)}
+
+/* modal */
+.md{position:fixed;inset:0;z-index:70;display:grid;place-items:center;padding:20px;background:rgba(10,10,11,.6);backdrop-filter:blur(6px);opacity:0;pointer-events:none;transition:opacity .2s}
+.md.on{opacity:1;pointer-events:auto}
+.md-b{background:var(--bg);color:var(--fg);border:1px solid var(--bd);border-radius:26px;width:min(560px,100%);max-height:calc(100vh - 40px);overflow:auto;padding:32px;transform:translateY(16px) scale(.98);transition:transform .25s}
+.md.on .md-b{transform:none}
+.md-h{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:6px}
+.md-h h3{font-size:1.45rem;letter-spacing:-.03em}
+.x{flex:0 0 auto;width:38px;height:38px;border-radius:50%;border:1px solid var(--bd);background:var(--card);cursor:pointer;font-size:1.2rem;line-height:1}
+.md-s{color:var(--mu);font-size:.93rem;margin-bottom:22px}
+.pay{border:1px solid var(--bd);border-radius:16px;padding:18px;background:var(--card);display:grid;gap:14px}
+.pay h4{font-size:.95rem}
+.opts{display:flex;gap:8px;flex-wrap:wrap}
+.opts label{border:1px solid var(--bd);border-radius:999px;padding:7px 14px;font-size:.88rem;cursor:pointer;display:flex;gap:6px;align-items:center}
+.opts input{accent-color:#1F7A4D}
+.acc{font-size:.9rem;background:var(--sub);border-radius:12px;padding:12px 14px;color:var(--mu)}
+.acc b{color:var(--fg)}
+
+/* footer */
+footer{background:#0A0A0B;color:#8B8B93;padding:64px 0 calc(34px + env(safe-area-inset-bottom,0px));font-size:.92rem}
+.fg{display:grid;grid-template-columns:1.4fr repeat(3,1fr);gap:32px;padding-bottom:40px;border-bottom:1px solid rgba(255,255,255,.08)}
+.fg h4{color:#F4F4F2;font-size:.92rem;margin-bottom:14px;font-weight:600}
+.fg a{display:block;text-decoration:none;padding:4px 0}.fg a:hover{color:#fff}
+.fg p{max-width:34ch;margin-top:14px}
+.fb{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:24px}
+footer .lg{color:#F4F4F2}
+
+
+.ic{width:18px;height:18px;flex:0 0 auto}
+.fg a{display:flex;align-items:center;gap:11px;padding:6px 0}
+.fg a .ib{width:32px;height:32px;border-radius:10px;border:1px solid rgba(255,255,255,.12);display:grid;place-items:center;color:#D4D4D8;transition:border-color .15s,color .15s,background .15s}
+.fg a:hover .ib{border-color:var(--lime);color:var(--ink);background:var(--lime)}
+.soc{display:flex;gap:10px;margin-top:22px}
+.soc a{width:42px;height:42px;border-radius:50%;border:1px solid rgba(255,255,255,.14);display:grid;place-items:center;color:#E8E8EA;padding:0;transition:background .15s,color .15s,border-color .15s}
+.soc a:hover{background:var(--lime);color:var(--ink);border-color:var(--lime)}
+.soc .ic{width:19px;height:19px}
+.mkts a{display:inline-flex;align-items:center;gap:7px}.mkts .ic{width:15px;height:15px}
+/* floating */
+.wa{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:40;width:56px;height:56px;border-radius:50%;background:#25D366;display:grid;place-items:center;box-shadow:0 12px 30px rgba(0,0,0,.25);transition:transform .2s}
+.wa:hover{transform:scale(1.06)}
+.wa svg{width:28px;height:28px}
+.dev{position:fixed;left:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:40;display:flex;align-items:center;gap:10px;background:#0A0A0B;color:#D4D4D8;border:1px solid rgba(255,255,255,.14);border-radius:999px;padding:8px 8px 8px 16px;font-size:.8rem;max-width:calc(100% - 110px)}
+.dev button{border:0;background:rgba(255,255,255,.1);color:#fff;border-radius:999px;width:26px;height:26px;cursor:pointer;flex:0 0 auto}
+
+
+/* 3D wave background */
+.bg3d{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;display:block;-webkit-mask-image:linear-gradient(180deg,transparent 0%,#000 38%,#000 100%);mask-image:linear-gradient(180deg,transparent 0%,#000 38%,#000 100%)}
+.has3d{position:relative;overflow:hidden}
+.has3d>.w{position:relative;z-index:1}
+/* pages + reveal */
+[hidden]{display:none!important}
+.page{display:none}.page.on{display:block}
+.rv-in{opacity:0;transform:translateY(22px);transition:opacity .8s cubic-bezier(.2,.8,.2,1),transform .8s cubic-bezier(.2,.8,.2,1)}
+.rv-in.vis{opacity:1;transform:none}
+.legal{max-width:760px}
+.legal h2{font-size:1.6rem;margin:44px 0 12px}.legal p{color:var(--mu);margin-bottom:12px}
+
+@media(max-width:1000px){.shelf{grid-template-columns:repeat(2,1fr)}.lg3{grid-template-columns:1fr 1fr}}
+@media(max-width:900px){
+  section{padding:76px 0}
+  .nl,.nav .w>.btn{display:none}.burger{display:block}
+  .hero{padding-top:calc(110px + env(safe-area-inset-top,0px))}
+  .hg{grid-template-columns:1fr}
+  .stage{height:420px;margin-top:-10px}
+  .ring{transform-origin:0 0;scale:.78}
+  .lv,.au,.ct,.band{grid-template-columns:1fr}.au{gap:40px}.ph{max-width:380px}
+  .g3,.steps,.topics{grid-template-columns:1fr}
+  .band{padding:36px 26px}.band .cta{justify-content:flex-start}
+  .fg{grid-template-columns:1fr 1fr}
+}
+@media(max-width:600px){
+  .shelf,.lg3,.two{grid-template-columns:1fr}
+  .bk-st{height:300px}
+  .cr{grid-template-columns:1fr 1fr}
+  .next{padding:26px}.cd div{min-width:0;flex:1}
+  .md-b{padding:24px}
+  .fg{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*:before,*:after{animation:none!important;transition:none!important}
+  .hero h1 .ln>span,.fade,.rv-in{transform:none!important;opacity:1!important}
+  .ring{opacity:1!important}
+}
+</style>
+</head>
+<body>
+<div class="prog" id="prog" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <div class="w">
+    <a class="lg" href="#/" aria-label="Rana Nazar Muhammad, home"><i>R</i>Rana Nazar Muhammad</a>
+    <nav class="nl" aria-label="Main">
+      <a href="#/" data-nav="home">Home</a>
+      <a href="#/books" data-nav="books">Books</a>
+      <a href="#/lectures" data-nav="lectures">Lectures</a>
+      <a href="#/about" data-nav="about">About</a>
+      <a href="#/contact" data-nav="contact">Contact</a>
+    </nav>
+    <a class="btn p sm" href="#/lectures">Join a lecture</a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</header>
+<div class="sheet" id="sheet">
+  <a href="#/">Home</a><a href="#/books">Books</a><a href="#/lectures">Lectures</a><a href="#/about">About</a><a href="#/contact">Contact</a>
+  <a class="btn p" href="#/lectures">Join a lecture</a>
+</div>
+
+<main id="main">
+
+<!-- ================= HOME ================= -->
+<div class="page" data-page="home">
+  <section class="hero" id="hero"><canvas class="bg3d" data-hz=".5" data-a=".55" aria-hidden="true"></canvas>
+    <div class="w hg">
+      <div>
+        <h1><span class="ln"><span>Rana Nazar</span></span><span class="ln"><span class="it">Muhammad</span></span></h1>
+        <p class="lead fade">Practical books on marketing, and recipe books for everyday home cooking. Read them on Amazon, Etsy and Gumroad, or learn with him in live and recorded lectures.</p>
+        <div class="cta fade"><a class="btn p" href="#/books">Browse the books</a><a class="btn g" href="#/lectures">See upcoming lectures</a></div>
+        <div class="mkts fade">Books available on <a href="#" data-link="amazon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h2l2.4 11.2a1 1 0 0 0 1 .8h8.9a1 1 0 0 0 1-.8L20 8H6.2"/><circle cx="9.5" cy="19.5" r="1.3"/><circle cx="17" cy="19.5" r="1.3"/></svg>Amazon</a><a href="#" data-link="etsy"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10v9h16v-9"/><path d="M3 5h18l-1.5 5a2.5 2.5 0 0 1-4.5 0 2.5 2.5 0 0 1-5 0 2.5 2.5 0 0 1-4.5 0Z"/><path d="M10 19v-5h4v5"/></svg>Etsy</a><a href="#" data-link="gumroad"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12V4h8l9 9-8 8Z"/><circle cx="7.5" cy="8.5" r="1.3"/></svg>Gumroad</a><a href="#" data-link="other"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5Z"/><path d="M5 19.5A1.5 1.5 0 0 0 6.5 21H19"/></svg>Google Play Books</a></div>
+      </div>
+      <div class="stage" id="stage" aria-label="A rotating shelf of the author's books. Drag to turn it." role="img">
+        <div class="floor"></div>
+        <div class="ring" id="ring"></div>
+        <div class="hint">Drag to turn the shelf</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="mq" aria-hidden="true"><div class="mq-t" id="mq"></div></div>
+
+  <section>
+    <div class="w">
+      <div class="hdr rv-in">
+        <div class="hd"><span class="lab">Books</span><h2>A growing <span class="it">library.</span></h2><p>Marketing books for people who sell, and recipe books for people who cook. Each one is written in plain language. New titles are being published on Amazon, Etsy and Gumroad.</p></div>
+        <a class="btn g" href="#/books">See all books</a>
+      </div>
+      <div class="shelf" id="homeBooks"></div>
+    </div>
+  </section>
+
+  <section class="dark has3d"><canvas class="bg3d" data-hz=".62" data-a=".3" aria-hidden="true"></canvas>
+    <div class="w">
+      <div class="hdr rv-in">
+        <div class="hd"><span class="lab">Lectures</span><h2>Learn with him <span class="it">live.</span></h2><p>Live lectures run on Zoom with time for questions. Missed one? Recorded lectures are sent straight to your email.</p></div>
+        <a class="btn g" href="#/lectures">All lectures</a>
+      </div>
+      <div class="lv rv-in">
+        <div class="next" id="nextLive"></div>
+        <div class="rec" id="homeRec"></div>
+      </div>
+      <div class="steps rv-in">
+        <div class="step"><b>Step 1</b><h3>Register</h3><p>Pick a lecture and fill in your name, email and WhatsApp number.</p></div>
+        <div class="step"><b>Step 2</b><h3>Pay, if it's a paid lecture</h3><p>JazzCash, Easypaisa or bank transfer in Pakistan. Card payment from anywhere else.</p></div>
+        <div class="step"><b>Step 3</b><h3>Check your email</h3><p>You get the Zoom link for live lectures, or the recording link for recorded ones.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="w au">
+      <div class="ph rv-in" role="img" aria-label="Author photo placeholder">
+        <svg viewBox="0 0 200 240" fill="none" aria-hidden="true"><circle cx="100" cy="78" r="44" stroke="#9CEE69" stroke-width="1.5"/><path d="M24 236c4-56 38-88 76-88s72 32 76 88" stroke="#9CEE69" stroke-width="1.5"/></svg>
+        <small>Author photo</small>
+      </div>
+      <div class="rv-in">
+        <span class="lab">About the author</span>
+        <h2>From real work <span class="it">to the page.</span></h2>
+        <p class="bio">Rana Nazar Muhammad has spent more than fifteen years in marketing, helping brands and small businesses find customers and sell more. His books turn that experience into clear steps that any business owner or student can follow.</p>
+        <div class="cr">
+          <div><b>BS (Hons)</b><span>Marketing</span></div>
+          <div><b>15+ years</b><span>Working in marketing</span></div>
+          <div><b>12 books</b><span>Published so far</span></div>
+          <div><b>2,000+ students</b><span>Live and recorded lectures</span></div>
+        </div>
+        <a class="btn g" href="#/about">Read his story</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="w">
+      <div class="hd rv-in"><span class="lab">Reviews</span><h2>What readers <span class="it">say.</span></h2></div>
+      <div class="g3 rv-in">
+        <div class="rv"><p>"I run a small bakery in Kenya and the pricing chapter changed how I sell. Simple, clear and practical."</p><small>Daniel O., Kenya · Amazon reader</small></div>
+        <div class="rv"><p>"Live lecture mein apne sawal pooche aur foran jawab mila. Pehli dafa kisi ne Facebook ads itni aasani se samjhaye."</p><small>Imran Ali, Multan · Live lecture</small></div>
+        <div class="rv"><p>"Desi Kitchen Classics lives on my kitchen counter now. The nihari came out just like my nani's."</p><small>Ayesha Khan, Lahore · Etsy reader</small></div>
+      </div>
+      
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="w">
+      <div class="band rv-in">
+        <div><h2>Get told when a new book <span class="it">comes out.</span></h2><p>New books and lecture dates, sent on WhatsApp. No spam.</p></div>
+        <div class="cta"><a class="btn p" href="#" data-link="whatsapp">Join on WhatsApp</a><a class="btn g" href="#/contact">Send a message</a></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ================= BOOKS ================= -->
+<div class="page" data-page="books">
+  <div class="ph-h"><canvas class="bg3d" data-hz=".55" data-a=".45" aria-hidden="true"></canvas><div class="w"><span class="lab" style="color:var(--lime)">Books</span><h1>The <span class="it">library.</span></h1><p>Every book is sold on Amazon, Etsy and Gumroad. Pick a topic, then choose the store you like.</p></div></div>
+  <section>
+    <div class="w">
+      <div class="tools"><div class="chips" id="bookFilters" role="group" aria-label="Filter by topic"></div></div>
+      <div class="shelf" id="allBooks"></div>
+    </div>
+  </section>
+</div>
+
+<!-- ================= LECTURES ================= -->
+<div class="page" data-page="lectures">
+  <div class="ph-h"><canvas class="bg3d" data-hz=".55" data-a=".45" aria-hidden="true"></canvas><div class="w"><span class="lab" style="color:var(--lime)">Lectures</span><h1>Live on Zoom. <span class="it">Recorded</span> for later.</h1><p>Some lectures are free, some are paid. Times are shown in Pakistan time and in your own time zone.</p></div></div>
+  <section>
+    <div class="w">
+      <div class="tools">
+        <div class="seg" role="group" aria-label="Lecture type"><button data-kind="live" aria-pressed="true">Live</button><button data-kind="recorded" aria-pressed="false">Recorded</button></div>
+        <div class="seg" role="group" aria-label="Price filter"><button data-price="all" aria-pressed="true">All</button><button data-price="free" aria-pressed="false">Free</button><button data-price="paid" aria-pressed="false">Paid</button></div>
+        <div class="seg" role="group" aria-label="Currency"><button data-cur="pkr" aria-pressed="true">PKR</button><button data-cur="usd" aria-pressed="false">USD</button></div>
+      </div>
+      <div class="lg3" id="lecGrid"></div>
+    </div>
+  </section>
+</div>
+
+<!-- ================= ABOUT ================= -->
+<div class="page" data-page="about">
+  <div class="ph-h"><canvas class="bg3d" data-hz=".55" data-a=".45" aria-hidden="true"></canvas><div class="w"><span class="lab" style="color:var(--lime)">About</span><h1>Rana Nazar <span class="it">Muhammad</span></h1><p>Marketing author with more than fifteen years of hands-on marketing work.</p></div></div>
+  <section>
+    <div class="w au">
+      <div class="ph" role="img" aria-label="Author photo placeholder">
+        <svg viewBox="0 0 200 240" fill="none" aria-hidden="true"><circle cx="100" cy="78" r="44" stroke="#9CEE69" stroke-width="1.5"/><path d="M24 236c4-56 38-88 76-88s72 32 76 88" stroke="#9CEE69" stroke-width="1.5"/></svg>
+        <small>Author photo</small>
+      </div>
+      <div>
+        <p class="quote">"Most businesses don't need more theory. They need someone to show them the next step."</p>
+        <small>Rana Nazar Muhammad</small>
+        <p class="bio">He studied marketing in Lahore and spent years running campaigns for brands and small businesses. Again and again he saw good businesses struggle because nobody had explained the basics in plain words, so he started writing them down. Those notes became his first book. Today his books are read in Pakistan and abroad. He also runs live lectures on Zoom so readers can ask him questions directly.</p>
+        <div class="cr">
+          <div><b>BS (Hons)</b><span>Marketing, Lahore</span></div>
+          <div><b>15+ years</b><span>Working in marketing</span></div>
+          <div><b>12 books</b><span>Published so far</span></div>
+          <div><b>2,000+ students</b><span>Joined his lectures</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="alt">
+    <div class="w" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:56px">
+      <div><span class="lab">His path</span><h2 style="margin-bottom:36px">How he got <span class="it">here.</span></h2>
+        <ul class="tl">
+          <li><b>2006 · Studied marketing</b><span>BS (Hons) in Marketing, Lahore.</span></li>
+          <li><b>2010 · Worked in marketing</b><span>Ran campaigns for brands and small businesses.</span></li>
+          <li><b>2019 · Started writing</b><span>Turned his notes into his first book, The Small Business Marketer.</span></li>
+          <li><b>2023 · Books on Amazon, Etsy and Gumroad</b><span>Published his books for readers around the world.</span></li>
+          <li><b>2024 · Started live lectures</b><span>First live lecture on Zoom, with readers from Pakistan and abroad.</span></li>
+        </ul>
+      </div>
+      <div><span class="lab">What he writes about</span><h2 style="margin-bottom:36px">Topics he <span class="it">covers.</span></h2>
+        <div class="topics" style="grid-template-columns:1fr 1fr">
+          <div><h3>Marketing</h3><p>Finding customers and selling more.</p></div>
+          <div><h3>Social media</h3><p>Posts and ads that bring sales.</p></div>
+          <div><h3>Copy and branding</h3><p>Words and looks that build trust.</p></div>
+          <div><h3>Recipes</h3><p>Desi classics and quick family meals.</p></div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ================= CONTACT ================= -->
+<div class="page" data-page="contact">
+  <div class="ph-h"><canvas class="bg3d" data-hz=".55" data-a=".45" aria-hidden="true"></canvas><div class="w"><span class="lab" style="color:var(--lime)">Contact</span><h1>Send a <span class="it">message.</span></h1><p>Questions about a book, a lecture, or a payment. Replies usually come within 2 days.</p></div></div>
+  <section>
+    <div class="w ct">
+      <div>
+        <form class="fm" id="contactForm" novalidate>
+          <div class="two">
+            <div class="fl"><label for="c-name">Your name</label><input id="c-name" name="name" autocomplete="name" required><span class="err">Enter your name.</span></div>
+            <div class="fl"><label for="c-email">Email</label><input id="c-email" name="email" type="email" autocomplete="email" required><span class="err">Enter a valid email, like name@gmail.com.</span></div>
+          </div>
+          <div class="fl"><label for="c-topic">About</label><select id="c-topic" name="topic"><option>A book</option><option>A live lecture</option><option>A recorded lecture</option><option>A payment</option><option>Something else</option></select></div>
+          <div class="fl"><label for="c-msg">Message</label><textarea id="c-msg" name="message" required></textarea><span class="err">Write a short message.</span></div>
+          <div><button class="btn p" type="submit">Send message</button></div>
+        </form>
+        <div class="ok" id="contactOk" role="status"><b>&#10003;</b><h3>Message sent</h3><p>Thanks. You'll get a reply at the email you entered.</p></div>
+      </div>
+      <div class="side">
+        <a href="#" data-link="whatsapp"><b>WhatsApp</b><span>+92 300 1234567</span></a>
+        <a href="#" data-link="email"><b>Email</b><span>contact@rananazarmuhammad.com</span></a>
+        <div><b>Books</b><span>Bought on Amazon, Etsy or Gumroad? Questions about delivery go to that store.</span></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ================= POLICIES ================= -->
+<div class="page" data-page="policies">
+  <div class="ph-h"><canvas class="bg3d" data-hz=".55" data-a=".45" aria-hidden="true"></canvas><div class="w"><span class="lab" style="color:var(--lime)">Policies</span><h1>Terms, privacy <span class="it">and refunds.</span></h1></div></div>
+  <section><div class="w legal">
+    <h2 id="terms">Terms</h2><p>Lectures are for the person who registered. Please don't share Zoom links or recordings with others. Be respectful in live sessions; anyone disrupting a class may be removed. Lecture dates can change, and registered students are told by email and WhatsApp.</p>
+    <h2 id="privacy">Privacy</h2><p>We collect your name, email, WhatsApp number and payment details only to register you and send your lecture links. We don't sell or share your information. You can ask us to delete it at any time by sending a message.</p>
+    <h2 id="refunds">Refunds</h2><p>If you can't attend a paid live lecture, tell us at least 24 hours before it starts for a full refund or a free seat in a later lecture. Recorded lectures can't be refunded once the link is sent. Book refunds are handled by Amazon, Etsy and Gumroad.</p>
+  </div></section>
+</div>
+</main>
+
+<footer>
+  <div class="w">
+    <div class="fg">
+      <div><a class="lg" href="#/" style="padding:0"><i>R</i>Rana Nazar Muhammad</a><p>Author of marketing and recipe books, with live and recorded lectures.</p><div class="soc"><a href="#" data-link="whatsapp" aria-label="WhatsApp"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12a8 8 0 0 1-11.8 7L4 20l1.1-4A8 8 0 1 1 20 12Z"/><path d="M9 11h.01M12 11h.01M15 11h.01"/></svg></a><a href="#" data-link="email" aria-label="Email"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6 8.5 7 8.5-7"/></svg></a><a href="#/lectures" aria-label="Lectures on Zoom"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="6" width="13" height="12" rx="2"/><path d="m16 10 5-3v10l-5-3"/></svg></a></div></div>
+      <div><h4>Explore</h4><a href="#/"><span class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11 12 4l8 7v9h-5v-6H9v6H4Z"/></svg></span>Home</a><a href="#/books"><span class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5Z"/><path d="M5 19.5A1.5 1.5 0 0 0 6.5 21H19"/></svg></span>Books</a><a href="#/lectures"><span class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></span>Lectures</a><a href="#/about"><span class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg></span>About</a><a href="#/contact"><span class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 3 10 14"/><path d="M21 3 14 21l-4-7-7-4Z"/></svg></span>Contact</a></div>
+      <div><h4>Buy the books</h4><a href="#" data-link="amazon"><span class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h2l2.4 11.2a1 1 0 0 0 1 .8h8.9a1 1 0 0 0 1-.8L20 8H6.2"/><circle cx="9.5" cy="19.5" r="1.3"/><circle cx="17" cy="19.5" r="1.3"/></svg></span>Amazon</a><a href="#" data-link="etsy"><span class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10v9h16v-9"/><path d="M3 5h18l-1.5 5a2.5 2.5 0 0 1-4.5 0 2.5 2.5 0 0 1-5 0 2.5 2.5 0 0 1-4.5 0Z"/><path d="M10 19v-5h4v5"/></svg></span>Etsy</a><a href="#" data-link="gumroad"><span class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12V4h8l9 9-8 8Z"/><circle cx="7.5" cy="8.5" r="1.3"/></svg></span>Gumroad</a><a href="#" data-link="other"><span class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5Z"/><path d="M5 19.5A1.5 1.5 0 0 0 6.5 21H19"/></svg></span>Google Play Books</a></div>
+      <div><h4>Policies</h4><a href="#/policies#terms"><span class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h8l4 4v14H6Z"/><path d="M14 3v4h4M9 12h6M9 16h6"/></svg></span>Terms</a><a href="#/policies#privacy"><span class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 5 6v6c0 4.5 3 7.5 7 9 4-1.5 7-4.5 7-9V6Z"/></svg></span>Privacy</a><a href="#/policies#refunds"><span class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.5-5.8"/><path d="M4 4v4h4"/></svg></span>Refunds</a></div>
+    </div>
+    <div class="fb"><span>&copy; <span id="yr"></span> Rana Nazar Muhammad</span><span>Lectures on Zoom · Books on Amazon, Etsy and Gumroad</span></div>
+  </div>
+</footer>
+
+<a class="wa" href="#" data-link="whatsapp" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12a8 8 0 0 1-11.8 7L4 20l1.1-4A8 8 0 1 1 20 12Z"/><path d="M9 11h.01M12 11h.01M15 11h.01"/></svg></a>
+
+<div class="dev" id="dev"><span>Sample content for preview. Replace with real details before launch.</span><button aria-label="Hide note">&times;</button></div>
+
+<!-- Registration modal -->
+<div class="md" id="md" role="dialog" aria-modal="true" aria-labelledby="mdTitle">
+  <div class="md-b">
+    <div class="md-h"><h3 id="mdTitle">Register</h3><button class="x" id="mdX" aria-label="Close">&times;</button></div>
+    <p class="md-s" id="mdSub"></p>
+    <form class="fm" id="regForm" novalidate>
+      <div class="fl"><label for="r-name">Full name</label><input id="r-name" name="name" autocomplete="name" required><span class="err">Enter your name.</span></div>
+      <div class="two">
+        <div class="fl"><label for="r-email">Email</label><input id="r-email" name="email" type="email" autocomplete="email" required><span class="err">Enter a valid email. The link is sent here.</span></div>
+        <div class="fl"><label for="r-wa">WhatsApp number</label><input id="r-wa" name="whatsapp" type="tel" autocomplete="tel" placeholder="+92 3XX XXXXXXX" required><span class="err">Enter your WhatsApp number.</span></div>
+      </div>
+      <div class="fl"><label for="r-country">Where are you?</label><select id="r-country" name="country"><option value="pk">Pakistan</option><option value="intl">Outside Pakistan</option></select></div>
+      <div class="pay" id="payBox">
+        <h4 id="payTitle">Payment</h4>
+        <div id="payPK">
+          <div class="opts" role="radiogroup" aria-label="Payment method">
+            <label><input type="radio" name="method" value="JazzCash" checked> JazzCash</label>
+            <label><input type="radio" name="method" value="Easypaisa"> Easypaisa</label>
+            <label><input type="radio" name="method" value="Bank transfer"> Bank transfer</label>
+          </div>
+          <p class="acc" id="accInfo" style="margin-top:12px"></p>
+          <div class="two" style="margin-top:12px">
+            <div class="fl"><label for="r-tid">Transaction ID</label><input id="r-tid" name="tid"><span class="err">Enter the transaction ID from your receipt.</span></div>
+            <div class="fl"><label for="r-shot">Payment screenshot</label><input id="r-shot" name="screenshot" type="file" accept="image/*"></div>
+          </div>
+        </div>
+        <div id="payINT" hidden>
+          <p class="acc">Pay by card on a secure checkout page. Your link is emailed automatically after payment.</p>
+          <a class="btn p" style="margin-top:12px" href="#" data-link="card">Pay by card</a>
+        </div>
+      </div>
+      <div><button class="btn p" type="submit" id="regBtn" style="width:100%">Register</button></div>
+    </form>
+    <div class="ok" id="regOk" role="status"><b>&#10003;</b><h3 id="okT">Registered</h3><p id="okP"></p></div>
+  </div>
+</div>
+
+<script>
+/* ===================================================================
+   CONFIG: replace these before launch
+   =================================================================== */
+var CONFIG = {
+  amazon:   "https://www.amazon.com/s?k=Rana+Nazar+Muhammad&i=digital-text",   // SAMPLE: replace with Amazon author page
+  etsy:     "https://www.etsy.com/search?q=Rana+Nazar+Muhammad+ebook",  // SAMPLE: replace with Etsy shop
+  gumroad:  "https://gumroad.com/discover?query=Rana%20Nazar%20Muhammad", // SAMPLE: replace with Gumroad profile
+  other:    "https://play.google.com/store/search?q=Rana%20Nazar%20Muhammad&c=books", // SAMPLE
+  whatsapp: "",                         // SAMPLE: put the real number here, e.g. "923001234567". Empty = opens WhatsApp with a ready message
+  email:    "contact@rananazarmuhammad.com", // SAMPLE
+  card:     "https://www.lemonsqueezy.com/",  // SAMPLE: replace with the real checkout link
+  formEndpoint: "",                    // e.g. Formspree / WordPress endpoint. Empty = demo mode
+  accounts: {
+    "JazzCash":      "JazzCash: <b>0300 1234567</b>, account title <b>Rana Nazar Muhammad</b>",
+    "Easypaisa":     "Easypaisa: <b>0345 1234567</b>, account title <b>Rana Nazar Muhammad</b>",
+    "Bank transfer": "Bank: <b>Meezan Bank</b>, IBAN <b>PK00 MEZN 0000 0000 0000 0000</b>, title <b>Rana Nazar Muhammad</b>"
+  }
+};
+
+/* SAMPLE books: replace titles, topics and links with real ones */
+var BOOKS = [
+  {t:"The Small Business <em>Marketer</em>", plain:"The Small Business Marketer", series:"Marketing series", topic:"Marketing", d:"Find your customers, set the right price and sell more, step by step.", status:"new", bg:"#9CEE69", sp:"#7FD34E", fg:"#0A0A0B", art:1, amazon:"", etsy:""},
+  {t:"Desi Kitchen <em>Classics</em>", plain:"Desi Kitchen Classics", series:"Recipe collection", topic:"Recipes", d:"Nihari, biryani, karahi and more, written so they turn out right the first time.", status:"", bg:"#174A33", sp:"#0F3624", fg:"#EAF6E2", art:2, amazon:"", etsy:""},
+  {t:"Social Media That <em>Sells</em>", plain:"Social Media That Sells", series:"Marketing series", topic:"Marketing", d:"Posts, reels and ads that bring real orders, not just likes.", status:"", bg:"#141416", sp:"#000000", fg:"#F4F4F2", art:3, amazon:"", etsy:""},
+  {t:"30-Minute Family <em>Meals</em>", plain:"30-Minute Family Meals", series:"Recipe collection", topic:"Recipes", d:"Quick weekday dinners for the whole family, with easy shopping lists.", status:"", bg:"#E7E1CF", sp:"#CFC7B0", fg:"#0A0A0B", art:4, amazon:"", etsy:""},
+  {t:"Write Copy That <em>Converts</em>", plain:"Write Copy That Converts", series:"Marketing series", topic:"Marketing", d:"Headlines, product pages and messages that make people buy.", status:"", bg:"#1F7A4D", sp:"#17603C", fg:"#FFFFFF", art:5, amazon:"", etsy:""},
+  {t:"Sweet Things at <em>Home</em>", plain:"Sweet Things at Home", series:"Recipe collection", topic:"Recipes", d:"Mithai, halwa and easy desserts for Eid, weddings and every day.", status:"soon", bg:"#F5F5F0", sp:"#DADAD2", fg:"#0A0A0B", art:6, amazon:"", etsy:""}
+];
+
+/* SAMPLE lectures: replace with real topics, dates and prices.
+   date = ISO time with Pakistan offset (+05:00) */
+var LECTURES = [
+  {kind:"live", title:"Facebook and Instagram ads for small businesses", date:"2026-10-24T19:00:00+05:00", mins:90, free:false, pkr:"1,500", usd:"8", th:1},
+  {kind:"live", title:"Open Q&A: ask the author anything", date:"2026-11-07T19:00:00+05:00", mins:60, free:true, th:4},
+  {kind:"live", title:"Pricing your product the right way", date:"2026-11-21T19:00:00+05:00", mins:90, free:false, pkr:"2,000", usd:"10", th:2},
+  {kind:"recorded", title:"Writing posts that sell", length:"1 h 20 min", free:false, pkr:"1,000", usd:"5", th:2},
+  {kind:"recorded", title:"Starting your online store", length:"1 h 05 min", free:false, pkr:"1,000", usd:"5", th:3},
+  {kind:"recorded", title:"Marketing 101 for beginners", length:"45 min", free:true, th:1},
+  {kind:"recorded", title:"Cooking class: biryani, step by step", length:"1 h 10 min", free:false, pkr:"1,200", usd:"6", th:4}
+];
+
+(function(){
+var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+var $ = function(s,c){return (c||document).querySelector(s)}, $$ = function(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s))};
+var esc = function(s){return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})};
+$("#yr").textContent = new Date().getFullYear();
+
+/* ---------- links from CONFIG ---------- */
+function isSet(v){return v && v.indexOf("[")!==0}
+function linkFor(k){
+  if(k==="whatsapp") return "https://api.whatsapp.com/send?" + (CONFIG.whatsapp ? "phone="+CONFIG.whatsapp+"&" : "") + "text=" + encodeURIComponent("Assalam o Alaikum, I'd like to know about Rana Nazar Muhammad's books and lectures.");
+  if(k==="email") return isSet(CONFIG.email) ? "mailto:"+CONFIG.email : "#";
+  return isSet(CONFIG[k]) ? CONFIG[k] : "#";
+}
+function wireLinks(root){
+  $$("[data-link]",root).forEach(function(a){
+    var u = linkFor(a.getAttribute("data-link")); a.href = u;
+    if(u!=="#" && u.indexOf("mailto")!==0){a.target="_blank";a.rel="noopener"}
+  });
+}
+
+/* ---------- 3D book ---------- */
+function book(b,w){
+  var s = w ? ' style="--w:'+w+'px;--h:'+Math.round(w*1.44)+'px;--d:'+Math.round(w*.17)+'px"' : "";
+  return '<div class="b3"'+s+'>'+
+    '<div class="f front" style="background:'+b.bg+';color:'+b.fg+'"><i class="art a'+b.art+'"></i>'+
+      '<span class="cv-s">'+b.series+'</span><b class="cv-t">'+b.t+'</b><span class="cv-a">Rana Nazar Muhammad</span></div>'+
+    '<div class="f spine" style="background:'+b.sp+';color:'+b.fg+'">'+esc(b.plain)+'</div>'+
+    '<div class="f pages"></div>'+
+    '<div class="f back" style="background:'+b.sp+'"></div></div>';
+}
+function bookCard(b){
+  var badge = b.status==="new" ? '<span class="bdg new">New</span>' : b.status==="soon" ? '<span class="bdg">Coming soon</span>' : "";
+  var q = encodeURIComponent(b.plain+" Rana Nazar Muhammad");
+  var amz = b.amazon || "https://www.amazon.com/s?k="+q+"&i=digital-text", ets = b.etsy || "https://www.etsy.com/search?q="+q, gum = b.gumroad || "https://gumroad.com/discover?query="+q;
+  var buy = b.status==="soon"
+    ? '<a class="btn g sm" href="#" data-link="whatsapp">Tell me when it\'s out</a>'
+    : '<a class="btn p sm" href="'+amz+'" target="_blank" rel="noopener">Amazon</a><a class="btn g sm" href="'+ets+'" target="_blank" rel="noopener">Etsy</a><a class="btn g sm" href="'+gum+'" target="_blank" rel="noopener">Gumroad</a>';
+  return '<article class="bk"><div class="bk-st">'+badge+book(b,150)+'</div>'+
+    '<div><span class="tp">'+esc(b.topic)+'</span><h3>'+esc(b.plain)+'</h3><p>'+esc(b.d)+'</p></div>'+
+    '<div class="by">'+buy+'</div></article>';
+}
+function fixStoreLinks(root){
+  $$("[data-store]",root).forEach(function(a){
+    if(a.getAttribute("href")==="#"){a.href=linkFor(a.getAttribute("data-store"))}
+    if(a.getAttribute("href")!=="#"){a.target="_blank";a.rel="noopener"}
+  });
+}
+
+/* home shelf + all books */
+$("#homeBooks").innerHTML = BOOKS.slice(0,4).map(bookCard).join("");
+var topics = ["All"].concat(BOOKS.map(function(b){return b.topic}).filter(function(t,i,a){return a.indexOf(t)===i}));
+$("#bookFilters").innerHTML = topics.map(function(t,i){return '<button class="chip" aria-pressed="'+(i===0)+'" data-t="'+esc(t)+'">'+esc(t)+'</button>'}).join("");
+function renderBooks(t){
+  var list = BOOKS.filter(function(b){return t==="All"||b.topic===t});
+  $("#allBooks").innerHTML = list.length ? list.map(bookCard).join("") : '<p class="empty">No books in this topic yet.</p>';
+  fixStoreLinks($("#allBooks")); wireLinks($("#allBooks"));
+}
+renderBooks("All");
+$("#bookFilters").addEventListener("click",function(e){
+  var b=e.target.closest(".chip"); if(!b) return;
+  $$(".chip",this).forEach(function(c){c.setAttribute("aria-pressed",c===b)});
+  renderBooks(b.getAttribute("data-t"));
+});
+
+/* marquee */
+var mqWords = ["Marketing","Social media","Copywriting","Branding","Desi recipes","Family meals","Live lectures","Recorded lectures"];
+var mqHTML = mqWords.map(function(w){return "<span>"+w+"</span>"}).join("");
+$("#mq").innerHTML = mqHTML + mqHTML;
+
+/* ---------- 3D ring in hero ---------- */
+var ring=$("#ring"), stage=$("#stage"), n=BOOKS.length, step=360/n, R=230;
+ring.innerHTML = BOOKS.map(function(b,i){return '<div class="slot" style="transform:rotateY('+(i*step)+'deg) translateZ('+R+'px)">'+book(b,150)+'</div>'}).join("");
+var rot = reduce ? -18 : 140, vel = reduce ? 0 : -2.4, base = reduce ? 0 : -0.11, drag=false, lastX=0, running=true, raf;
+function draw(){ring.style.transform="rotateX(-9deg) rotateY("+rot+"deg)"}
+function tick(){
+  if(!drag){ vel += (base-vel)*0.025; rot += vel }
+  draw();
+  if(running) raf=requestAnimationFrame(tick);
+}
+function startRing(){ if(!running){running=true; raf=requestAnimationFrame(tick)} }
+function stopRing(){ running=false; cancelAnimationFrame(raf) }
+draw(); if(!reduce){raf=requestAnimationFrame(tick)} else running=false;
+stage.addEventListener("pointerdown",function(e){drag=true;lastX=e.clientX;vel=0;stage.setPointerCapture(e.pointerId); if(reduce) startRing()});
+stage.addEventListener("pointermove",function(e){if(!drag)return;var dx=e.clientX-lastX;lastX=e.clientX;rot+=dx*.35;vel=dx*.35});
+function endDrag(){drag=false; if(reduce){setTimeout(stopRing,50)}}
+stage.addEventListener("pointerup",endDrag);stage.addEventListener("pointercancel",endDrag);
+if("IntersectionObserver" in window){
+  new IntersectionObserver(function(e){ if(reduce) return; e[0].isIntersecting && currentPage==="home" ? startRing() : stopRing() }).observe(stage);
+}
+
+/* ---------- lectures ---------- */
+var CUR="pkr", KIND="live", PRICE="all";
+var userTZ = Intl.DateTimeFormat().resolvedOptions().timeZone;
+function fmt(iso,tz){
+  return new Intl.DateTimeFormat("en-GB",{timeZone:tz,weekday:"short",day:"numeric",month:"short",hour:"numeric",minute:"2-digit",hour12:true}).format(new Date(iso));
+}
+function priceOf(l){return l.free ? "Free" : (CUR==="pkr" ? "PKR "+l.pkr : "USD "+l.usd)}
+function lecCard(l,i){
+  var meta = l.kind==="live"
+    ? '<span>'+fmt(l.date,"Asia/Karachi")+' (Pakistan)</span>'+(userTZ!=="Asia/Karachi"?'<span>'+fmt(l.date,userTZ)+' (your time)</span>':'')+'<span>'+l.mins+' min on Zoom</span>'
+    : '<span>'+esc(l.length)+' · sent to your email</span>';
+  return '<article class="lc"><div class="th th-'+l.th+'"><span class="pl"></span></div><div class="bd">'+
+    '<div class="row"><span class="tag'+(l.free?" free":"")+'">'+(l.free?"Free":"Paid")+'</span><span class="tag">'+(l.kind==="live"?"Live":"Recorded")+'</span></div>'+
+    '<h3>'+esc(l.title)+'</h3><div class="meta">'+meta+'</div>'+
+    '<div class="ft"><span class="pr">'+priceOf(l)+'</span><button class="btn p sm" data-reg="'+i+'">'+(l.kind==="live"?"Register":"Get the recording")+'</button></div></div></article>';
+}
+function upcoming(){return LECTURES.filter(function(l){return l.kind==="live" && new Date(l.date)>new Date()}).sort(function(a,b){return new Date(a.date)-new Date(b.date)})}
+function renderLectures(){
+  var items = LECTURES.map(function(l,i){return {l:l,i:i}}).filter(function(o){
+    if(o.l.kind!==KIND) return false;
+    if(KIND==="live" && new Date(o.l.date)<new Date()) return false;
+    return PRICE==="all" || (PRICE==="free")===!!o.l.free;
+  });
+  $("#lecGrid").innerHTML = items.length ? items.map(function(o){return lecCard(o.l,o.i)}).join("")
+    : '<p class="empty">No '+(PRICE==="all"?"":PRICE+" ")+(KIND==="live"?"upcoming live":"recorded")+' lectures right now. <a href="#" data-link="whatsapp">Get told on WhatsApp</a> when one is added.</p>';
+  wireLinks($("#lecGrid"));
+}
+function bindSeg(attr,set){
+  $$("[data-"+attr+"]").forEach(function(b){b.addEventListener("click",function(){
+    $$("[data-"+attr+"]").forEach(function(x){x.setAttribute("aria-pressed",x===b)});
+    set(b.getAttribute("data-"+attr)); renderLectures();
+  })});
+}
+bindSeg("kind",function(v){KIND=v});bindSeg("price",function(v){PRICE=v});bindSeg("cur",function(v){CUR=v});
+renderLectures();
+
+/* next live (home) + countdown */
+var nx = upcoming()[0], nxi = LECTURES.indexOf(nx);
+if(nx){
+  $("#nextLive").innerHTML = '<span class="live"><i></i>Next live lecture</span><h3>'+esc(nx.title)+'</h3>'+
+    '<p>On Zoom with Rana Nazar Muhammad. A short lesson, then open questions.</p>'+
+    '<div class="cd" aria-label="Time until the lecture"><div><b id="cdD">0</b><span>days</span></div><div><b id="cdH">0</b><span>hours</span></div><div><b id="cdM">0</b><span>minutes</span></div><div><b id="cdS">0</b><span>seconds</span></div></div>'+
+    '<div class="tm"><div>'+fmt(nx.date,"Asia/Karachi")+' <span>Pakistan time</span></div>'+(userTZ!=="Asia/Karachi"?'<div>'+fmt(nx.date,userTZ)+' <span>your time</span></div>':'')+'</div>'+
+    '<button class="btn p" data-reg="'+nxi+'">Register · '+(nx.free?"Free":"PKR "+nx.pkr)+'</button>';
+  var cdT=new Date(nx.date).getTime();
+  var pad=function(v){return v<10?"0"+v:v};
+  var cd=function(){var s=Math.max(0,Math.floor((cdT-Date.now())/1000));
+    $("#cdD").textContent=Math.floor(s/86400);$("#cdH").textContent=pad(Math.floor(s%86400/3600));$("#cdM").textContent=pad(Math.floor(s%3600/60));$("#cdS").textContent=pad(s%60)};
+  cd(); setInterval(cd,1000);
+} else {
+  $("#nextLive").innerHTML = '<span class="live"><i></i>Live lectures</span><h3>The next date is coming soon.</h3><p>Join on WhatsApp to hear first.</p><a class="btn p" href="#" data-link="whatsapp">Join on WhatsApp</a>';
+}
+$("#homeRec").innerHTML = LECTURES.map(function(l,i){return {l:l,i:i}}).filter(function(o){return o.l.kind==="recorded"}).slice(0,3).map(function(o){
+  return '<button class="rc" data-reg="'+o.i+'"><span class="th th-'+o.l.th+'"><span class="pl"></span></span><span><b>'+esc(o.l.title)+'</b><small>Recorded · '+(o.l.free?"Free":"PKR "+o.l.pkr)+'</small></span></button>';
+}).join("") + '<a class="btn g" href="#/lectures" style="margin-top:4px">All recorded lectures</a>';
+
+/* ---------- registration modal ---------- */
+var md=$("#md"), regForm=$("#regForm"), cur=null, lastFocus=null;
+function setPay(){
+  var intl = $("#r-country").value==="intl";
+  $("#payBox").hidden = cur.free;
+  $("#payPK").hidden = intl; $("#payINT").hidden = !intl;
+  $("#payTitle").textContent = "Payment: " + (intl ? "USD "+cur.usd : "PKR "+cur.pkr);
+  var m = (regForm.querySelector("input[name=method]:checked")||{}).value;
+  $("#accInfo").innerHTML = "Send the amount to " + CONFIG.accounts[m] + ". Then add the transaction ID below.";
+  $("#regBtn").textContent = cur.free ? "Register" : (intl ? "I've paid by card" : "Submit payment details");
+}
+function openReg(i){
+  cur = LECTURES[i]; lastFocus=document.activeElement;
+  $("#mdTitle").textContent = cur.kind==="live" ? "Register for the lecture" : "Get the recording";
+  $("#mdSub").textContent = cur.title + (cur.kind==="live" ? " · "+fmt(cur.date,"Asia/Karachi")+" Pakistan time" : "");
+  regForm.reset(); regForm.style.display=""; $("#regOk").style.display="none";
+  $$(".fl",regForm).forEach(function(f){f.classList.remove("bad")});
+  setPay(); md.classList.add("on"); document.body.style.overflow="hidden";
+  setTimeout(function(){$("#r-name").focus()},50);
+}
+function closeReg(){md.classList.remove("on");document.body.style.overflow="";if(lastFocus)lastFocus.focus()}
+document.addEventListener("click",function(e){var b=e.target.closest("[data-reg]"); if(b){e.preventDefault();openReg(+b.getAttribute("data-reg"))}});
+$("#mdX").addEventListener("click",closeReg);
+md.addEventListener("click",function(e){if(e.target===md)closeReg()});
+document.addEventListener("keydown",function(e){if(e.key==="Escape"&&md.classList.contains("on"))closeReg()});
+$("#r-country").addEventListener("change",setPay);
+$$("input[name=method]").forEach(function(r){r.addEventListener("change",setPay)});
+
+function check(form,rules){
+  var ok=true, first=null;
+  rules.forEach(function(r){
+    var el=form.querySelector(r[0]), fl=el.closest(".fl"), bad=!r[1](el.value.trim());
+    fl.classList.toggle("bad",bad); if(bad){ok=false; if(!first)first=el}
+  });
+  if(first) first.focus();
+  return ok;
+}
+var notEmpty=function(v){return v.length>0}, isEmail=function(v){return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v)};
+function send(data){
+  if(!CONFIG.formEndpoint) return Promise.resolve();
+  return fetch(CONFIG.formEndpoint,{method:"POST",body:data});
+}
+regForm.addEventListener("submit",function(e){
+  e.preventDefault();
+  var rules=[["#r-name",notEmpty],["#r-email",isEmail],["#r-wa",notEmpty]];
+  if(!cur.free && $("#r-country").value==="pk") rules.push(["#r-tid",notEmpty]);
+  if(!check(regForm,rules)) return;
+  var fd=new FormData(regForm); fd.append("lecture",cur.title);
+  send(fd).then(function(){
+    regForm.style.display="none"; $("#regOk").style.display="block";
+    var em=esc($("#r-email").value.trim());
+    $("#okT").textContent = cur.free ? "You're registered" : "Payment details received";
+    $("#okP").innerHTML = cur.free
+      ? (cur.kind==="live" ? "The Zoom link is on its way to <b>"+em+"</b>." : "The recording link is on its way to <b>"+em+"</b>.")
+      : "Once the payment is confirmed, the "+(cur.kind==="live"?"Zoom link":"recording link")+" is sent to <b>"+em+"</b>. This usually takes a few hours.";
+  }).catch(function(){alert("The form couldn't be sent. Check your connection and try again.")});
+});
+
+$("#contactForm").addEventListener("submit",function(e){
+  e.preventDefault();
+  if(!check(this,[["#c-name",notEmpty],["#c-email",isEmail],["#c-msg",notEmpty]])) return;
+  var f=this; send(new FormData(f)).then(function(){f.style.display="none";$("#contactOk").style.display="block"});
+});
+$$(".fl input,.fl textarea").forEach(function(el){el.addEventListener("input",function(){el.closest(".fl").classList.remove("bad")})});
+
+
+/* ---------- 3D dot-wave background ---------- */
+var waves=[], mouseX=0, mouseY=0;
+window.addEventListener("pointermove",function(e){mouseX=e.clientX/innerWidth-.5;mouseY=e.clientY/innerHeight-.5},{passive:true});
+$$(".bg3d").forEach(function(cv){
+  var ctx=cv.getContext("2d"), W=0, H=0, dpr=1, vis=false, w={cv:cv};
+  var hz=parseFloat(cv.getAttribute("data-hz"))||.5, A=parseFloat(cv.getAttribute("data-a"))||.5;
+  var COLS=130, ROWS=44, mx=0, my=0;
+  function size(){ var r=cv.getBoundingClientRect(); dpr=Math.min(window.devicePixelRatio||1,2); W=r.width; H=r.height; cv.width=Math.round(W*dpr); cv.height=Math.round(H*dpr); ctx.setTransform(dpr,0,0,dpr,0,0); w.draw(performance.now()) }
+  w.draw=function(t){
+    if(!W) return;
+    t=t/1000; mx+=(mouseX-mx)*.04; my+=(mouseY-my)*.04;
+    ctx.clearRect(0,0,W,H);
+    var fov=Math.max(W,700)*.9, horizon=H*hz-my*30, camH=3.2+my*.6, shift=mx*3;
+    for(var zi=ROWS;zi>=1;zi--){
+      var z=zi*1.05+1.5, s=fov/(z+4), depth=1-zi/ROWS;
+      var a=A*Math.min(1,depth*1.6)*(zi<3?zi/3:1);
+      if(a<.01) continue;
+      ctx.fillStyle="rgba(156,238,105,"+a.toFixed(3)+")";
+      var r=Math.max(.8,s*.016);
+      for(var xi=-COLS/2;xi<=COLS/2;xi++){
+        var X=xi*1.15+shift;
+        var Y=Math.sin(xi*.28+t*.9)*Math.cos(zi*.22+t*.6)*.9 + Math.sin((xi+zi)*.12+t*.4)*.6;
+        var sx=W/2+X*s*.11, sy=horizon+(camH-Y)*s*.42;
+        if(sx<-4||sx>W+4||sy>H+4||sy<-4) continue;
+        ctx.fillRect(sx-r/2,sy-r/2,r,r);
+      }
+    }
+  };
+  if("ResizeObserver" in window){ new ResizeObserver(size).observe(cv) } else { window.addEventListener("resize",size); size() }
+  if("IntersectionObserver" in window){ new IntersectionObserver(function(e){w.vis=e[0].isIntersecting}).observe(cv) } else w.vis=true;
+  waves.push(w);
+});
+function waveLoop(t){ waves.forEach(function(w){ if(w.vis && w.cv.offsetParent!==null) w.draw(t) }); requestAnimationFrame(waveLoop) }
+if(!reduce) requestAnimationFrame(waveLoop);
+
+/* ---------- router ---------- */
+var currentPage="home", titles={home:"Rana Nazar Muhammad · Author of marketing and recipe books",books:"Books · Rana Nazar Muhammad",lectures:"Lectures · Rana Nazar Muhammad",about:"About · Rana Nazar Muhammad",contact:"Contact · Rana Nazar Muhammad",policies:"Policies · Rana Nazar Muhammad"};
+function route(){
+  var parts=location.hash.replace(/^#\/?/,"").split(/[?#]/), p=parts[0]||"home", anchor=parts[1];
+  if(!titles[p]) p="home";
+  currentPage=p;
+  $$(".page").forEach(function(pg){pg.classList.toggle("on",pg.getAttribute("data-page")===p)});
+  $$("[data-nav]").forEach(function(a){a.classList.toggle("on",a.getAttribute("data-nav")===p)});
+  document.title=titles[p];
+  document.documentElement.classList.remove("menu-open");$("#burger").setAttribute("aria-expanded","false");
+  var tgt = anchor && document.getElementById(anchor);
+  if(tgt){ setTimeout(function(){ window.scrollTo(0, tgt.getBoundingClientRect().top + scrollY - 90) }, 30) } else window.scrollTo(0,0);
+  if(p==="home" && !reduce) startRing(); else stopRing();
+  reveal(); onScroll();
+}
+window.addEventListener("hashchange",route);
+
+/* ---------- reveal + nav + progress ---------- */
+var io = ("IntersectionObserver" in window && !reduce) ? new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("vis");io.unobserve(e.target)}})},{rootMargin:"0px 0px -8% 0px"}) : null;
+function reveal(){ $$(".page.on .rv-in:not(.vis)").forEach(function(el){ io ? io.observe(el) : el.classList.add("vis") }) }
+var nav=$("#nav"), prog=$("#prog");
+function onScroll(){
+  var y=window.scrollY, h=document.documentElement.scrollHeight-innerHeight;
+  nav.classList.toggle("solid", y>40);
+  prog.style.transform="scaleX("+(h>0?y/h:0)+")";
+}
+window.addEventListener("scroll",onScroll,{passive:true});
+
+$("#burger").addEventListener("click",function(){
+  var open=document.documentElement.classList.toggle("menu-open");
+  this.setAttribute("aria-expanded",open); this.setAttribute("aria-label",open?"Close menu":"Open menu");
+});
+$("#dev button").addEventListener("click",function(){$("#dev").remove()});
+
+wireLinks(document); fixStoreLinks(document);
+route();
+requestAnimationFrame(function(){document.documentElement.classList.add("loaded")});
+})();
+</script>
+</body>
+</html>
